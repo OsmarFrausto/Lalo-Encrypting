@@ -5,6 +5,7 @@ public class Encrypter {
 
     static Scanner userInput = new Scanner(System.in);
     private static String DecrypteRoute = "EncryptedMesseges.txt";
+    private static String EcrypteRoute = "Messeges.txt";
     private static String[] textToEncrypt = { "abcdefghijklmnopqrstuvwxyz" };
     private static String[] textToDencrypt = {};
 
@@ -28,7 +29,22 @@ public class Encrypter {
         //Deencrypter.Dencrypt(textToDencrypt);
     }
 
-    public static void EncryptText() {}
+    public static void EncryptText() {
+        textToEncrypt=TextFile.GetKotobas(EcrypteRoute);
+        int kEncrypt[] = new int[11];
+         for (int i = 0; i < textToEncrypt.length; i++) {
+            System.out.println(textToEncrypt[i]);
+            System.out.println("Insert number to encrypt");  
+            kEncrypt[i] = userInput.nextInt();
+            Encrypt(textToEncrypt[i], kEncrypt[i]);
+            userInput.nextLine();
+        }
+        for (int i = 0; i < textToEncrypt.length; i++) {
+            System.out.println(textToEncrypt[i] + " (k=" + kEncrypt[i] + ")");
+            Encrypt(textToEncrypt[i], kEncrypt[i]);
+            
+        }
+    }
 
     public static void DeencryptText() {
         textToDencrypt = TextFile.GetKotobas(DecrypteRoute);

@@ -1,12 +1,12 @@
-Computer science is no more about computers than astronomy is about telescopes.@(k=3)@
-I don't fear computers. I fear the lack of them.@(k=7)@
-There are two ways to write error-free programs; only the third one works.@(k=12)@
-The most dangerous phrase in the language is, we've always done it this way.@(k=5)@
+Computer science is no more about computers than astronomy is about telescopes.@
+I don't fear computers. I fear the lack of them.@
+There are two ways to write error-free programs; only the third one works.@
+The most dangerous phrase in the language is, we've always done it this way.@
 A language that doesn't affect the way you think about programming, is not worth
-knowing.@(k=15)@
-Weeks of programming can save you hours of doing things manually.@(k=2)@
+knowing.@
+Weeks of programming can save you hours of doing things manually.@
 Measuring programming progress by lines of code is like measuring aircraft building
-progress by weight.@(k=9)@
-First solve the problem. Then, write the code.@(k=4)@
-It's not a bug; it's an undocumented feature.@(k=11)@
-Any fool can write code that a computer can understand. Good programmers write code that humans can understand.@ (k=6)@
+progress by weight.@
+First solve the problem. Then, write the code.@
+It's not a bug; it's an undocumented feature.@
+Any fool can write code that a computer can understand. Good programmers write code that humans can understand.@
